@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Movie Reviews</h1>
+    <p class="lead">Store and Catalogue Movie or Television Reviews</p>
+    <p><a href="http://localhost:57875/Home/About" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started:</h2>
+        <p>
+            This APP utilizes the membership identity system to allow control of data entry/editing.
+        </p>
+        <p><a class="btn btn-default" href="http://localhost:57875/Home/About">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Code First</h2>
+        <p>
+            This APP uses a ‘code first’ model for the movie data but could have been database first.
+            Database data schema is something like: Id, Title, Genre, Year of Release, Trailer link?,
+            Review text or comments ‘might’ require a foreign key table or two…(genre for example)
+        </p>
+        <p><a class="btn btn-default" href="http://localhost:57875/Home/About">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Membership Roles</h2>
+        <p>
+            Only admins or members (roles) are able to create or edit reviews
+            and admins should be the only ones allowed to delete movie reviews.
+        </p>
+        <p><a class="btn btn-default" href="http://localhost:57875/Home/About">Learn more &raquo;</a></p>
+    </div>
+</div>

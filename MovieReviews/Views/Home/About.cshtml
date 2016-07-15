@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "About";
+    ViewBag.Message = "This app is used to store and catalogue movie or television reviews.";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+
+
+<p>This APP utilizes the membership identity system to allow control of data entry/editing.</p>
+
+<p>This APP uses a ‘code first’ model for the movie data but could have been database first.
+        Database data schema is something like: Id, Title, Genre, Year of Release, Trailer link?,
+        Review text or comments ‘might’ require a foreign key table or two…(genre for example).</p>
+
+<p>Only admins or members (roles) are able to create or edit reviews
+        and admins should be the only ones allowed to delete movie reviews.</p>
+
+
